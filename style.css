@@ -66,44 +66,128 @@
   transform: translate(-50%, -50%);
   object-fit: cover;
 }
+.matters {
+  background-color: #ffffff;
+    text-align: center;
+    color: white;
+}
 
-.why-matters {
-  max-width: 1100px;
-  margin: 60px auto;
-  padding: 50px 30px;
-  background: #ffffff;
-  border-radius: 18px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+
+.matters h3 {
+    font-size: 2.5em;
+    color: #6a1b9a;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.why-it {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.child {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 20px;
+    width: 300px;
+}
+
+.child img {
+    margin-bottom: 15px;
+}
+
+.child p {
+    font-size: 1.1em;
+    color: #6a1b9a;
+    font-weight: 500;
+    line-height: 1.5;
+}
+/* moche */
+.container-q {
+  margin-left: 250px;
   text-align: center;
+    max-width: 800px;
+    padding: 50px;
 }
 
-/* Heading */
-.why-matters h2 {
-  color: #7b2cbf;
-  font-size: 32px;
-  margin-bottom: 40px;
+.logo-container {
+    margin-bottom: 30px;
 }
 
-/* Items layout */
-.items {
-  display: flex;
-  gap: 40px;
-  justify-content: space-between;
+.mustache-logo {
+    width: 200px; 
+    height: auto;
 }
 
-/* Single item */
-.item {
-  flex: 1;
+.main-heading {
+    color: #8A2BE2; 
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
-.item img {
-  width: 60px;
-  margin-bottom: 20px;
+.description {
+    color: #333333; 
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
 }
 
-.item p {
-  color: #7b2cbf;
-  font-size: 18px;
-  line-height: 1.6;
-  font-weight: 500;
+/* mobile */
+
+.hero-section {
+  background-color: #8A2BE2;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Text Styling */
+.content {
+    flex: 1;
+}
+
+.content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+
+.content h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+
+.content p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    line-height: 1.5;
+}
+
+/* Image Styling */
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.phone-img {
+    width: 350px; /* Aap size adjust kar sakte hain */
+    transform: rotate(-5deg); /* Thoda tilt effect ke liye */
+    filter: drop-shadow(20px 20px 50px rgba(0,0,0,0.5));
 }
